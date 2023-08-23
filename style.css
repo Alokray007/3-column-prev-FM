@@ -1,0 +1,146 @@
+:root {
+    --clr-primary-bc-c1: hsl(31, 77%, 52%);
+    --clr-primary-bc-c2: hsl(184, 100%, 22%);
+    --clr-primary-bc-c3: hsl(179, 100%, 13%);
+
+    --clr-neutral-main: hsl(0, 0%, 95%);
+    --clr-neutral-para: hsla(0, 0%, 100%, 0.75);
+
+    --fs-para: 0.9375rem;
+
+    --ff-main: 'Big Shoulders Display', cursive;
+    --ff-accent: 'Lexend Deca', sans-serif;
+
+    --padding-card: 2.5rem 3.8rem 2.5rem 2.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+p,
+h1,
+h2 {
+  overflow-wrap: break-word;
+}
+
+body {
+    background-color: var(--clr-neutral-main);
+    font-size: var(--fs-para);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh;
+    font-family: var(--ff-accent);
+    color: #fff;
+}
+
+.cards {
+    max-width: 340px;
+}
+
+.card1 {
+    background-color: var(--clr-primary-bc-c1);
+    padding: var(--padding-card);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.card1 button {
+    background-color: var(--clr-neutral-main);
+    color: var(--clr-primary-bc-c1);
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 1px solid var(--clr-primary-bc-c1);
+    font-weight: 600;
+}
+
+.card2 {
+    background-color: var(--clr-primary-bc-c2);
+    padding: var(--padding-card);
+}
+
+
+.card2 button {
+    background-color: var(--clr-neutral-main);
+    color: var(--clr-primary-bc-c2);
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 1px solid var(--clr-primary-bc-c1);
+    font-weight: 600;
+}
+
+.card3 {
+    background-color: var(--clr-primary-bc-c3);
+    padding: var(--padding-card);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.card3 button {
+    background-color: var(--clr-neutral-main);
+    color: var(--clr-primary-bc-c3);
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: 1px solid var(--clr-primary-bc-c1);
+    font-weight: 600;
+}
+
+p {
+    color: var(--clr-neutral-para);
+    padding-bottom: 1.5rem;
+}
+
+h2 {
+    font-family: var(--ff-main);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+img {
+    padding-bottom: 1.5rem;
+}
+
+@media (min-width: 600px) {
+    body {
+        height: 100vh;
+    }
+
+    .cards {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 950px;
+    }
+
+    .card1 {
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+        border-top-right-radius: 0;
+        width: 100%;
+    }
+
+    .card3 {
+        border: none;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+        border-bottom-left-radius: 0;
+    }
+}
