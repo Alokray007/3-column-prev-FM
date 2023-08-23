@@ -14,6 +14,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Overview
 
+
 ### The challenge
 
 Users should be able to:
@@ -23,13 +24,14 @@ Users should be able to:
 
 ### Screenshot
 
-![mobile](https://raw.github.com/Alokray007/stats-preview-FM/main/screenshots/mobile-design.png)
-![desktop](https://raw.github.com/Alokray007/stats-preview-FM/main/screenshots/desktop-design.png)
+![mobile1](https://raw.github.com/Alokray007/3-column-prev-FM/main/screenshots/mobile1.png)
+![mobile2](https://raw.github.com/Alokray007/3-column-prev-FM/main/screenshots/mobile2.png)
+![desktop](https://raw.github.com/Alokray007/3-column-prev-FM/main/screenshots/desktop.png)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Alokray007/stats-preview-FM)
-- Live Site URL: [Netlify- Live Site](https://statsprevew.netlify.app/)
+- Solution URL: [Github](https://github.com/Alokray007/3-column-prev-FM)
+- Live Site URL: [Netlify- Live Site](https://threecolprev.netlify.app/)
 
 
 ### Built with
@@ -37,7 +39,6 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
